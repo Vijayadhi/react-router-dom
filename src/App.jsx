@@ -20,7 +20,7 @@ function App() {
             <Route path='/development' element={<Development />}/>
             <Route path='/ai_content' element={<AIContnet />}/>
             <Route path='/ui_ux' element={<UI_UX_Contnet />}/>
-            <Route path='/dashboard' element={<DashboardContent />}/>
+            <Route path='/' element={<AIContnet />}/>
             <Route path='/blockChain' element={<BlockChain />}/>
             <Route path='/cyber_security' element={<CyberSecurity />}/>
             <Route path='/cloud_computing' element={<CloudComputing />}/>
